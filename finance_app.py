@@ -71,15 +71,15 @@
 
 
 def simple_interest(principal , rate , time):
-    """""
+    """
     Formula: Simple Interest (SI) = Principal (P) x Rate (R) x Time (T) / 100.
-    """""
+    """
     interest = principal * rate * time / 100
     return interest
 
 
 def compound_interest(principal , rate_of_interest , compounded_interest , time):
-    """""
+    """
      If the interest is compounded annually, the amount is given as:
      A = P * (1 + R / n) ** n * T
      A = amount
@@ -87,32 +87,32 @@ def compound_interest(principal , rate_of_interest , compounded_interest , time)
      R = rate of interest
      n = no of times interest got compounded annually
      T = time (in years)
-    """""
+    """
     interest = principal * ((1 + rate_of_interest / compounded_interest) ** (compounded_interest * time))
     return interest
 
 
 def monthly_loan(principal , interest_rate):
-    """""
+    """
     # So, to get your monthly loan payment,
     # you must divide your interest rate by 12.
     # Whatever figure you get, multiply it by your principal.
     # A simpler way to look at it is monthly payment = principal x (interest rate / 12).
     # The formula might seem complex, but it doesn't have to be.
-    """""
+    """
     monthly_payment = principal * (interest_rate / 12) + (principal / 12)
     return monthly_payment
 
 
 def future_value(investment_amount, interest_rate, num_of_years):
-    """""
+    """
     Calculate Future Value of Savings
     FV=I×(1+(R×T))
     where:
     I=Investment amount
     R=Interest rate
     T=Number of years
-    """""
+    """
     value = investment_amount * (1 + (interest_rate * num_of_years))
     return value
 
