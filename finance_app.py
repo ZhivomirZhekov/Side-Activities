@@ -63,7 +63,7 @@
 # Enter the number of times interest is compounded per year: 4
 # Enter time (in years): 3
 #
-# Compound Interest: $159.44
+# Compound Interest: $1160.75
 #
 # Do you want to perform another calculation? (yes/no): no
 #
